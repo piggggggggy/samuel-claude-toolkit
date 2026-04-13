@@ -10,6 +10,7 @@ Claude Code 팀 공용 스킬 모음입니다.
 | 스킬 | 설명 |
 |------|------|
 | [dep-security](#dep-security) | 외부 패키지 설치·추천 전 공급망 보안 자동 검수 |
+| [minto-writing](#minto-writing) | 민토 피라미드 원칙 기반 글쓰기·편집 코칭 |
 
 ---
 
@@ -56,6 +57,49 @@ cp -r skills/dep-security ~/.claude/skills/dep-security
 ### Dependencies
 Always use the dep-security skill before installing or recommending
 any external package, without me having to explicitly ask.
+```
+
+---
+
+## minto-writing
+
+Barbara Minto의 피라미드 원칙(Pyramid Principle)에 기반한 글쓰기·편집 코칭
+스킬입니다. Claude가 직접 글을 써주는 대신, 구조화된 질문을 통해 사용자가
+스스로 글을 개선하도록 안내합니다.
+
+**동작 방식**
+
+SCQA(Situation → Complication → Question → Answer) 프레임워크와 피라미드
+구조 점검을 중심으로 아래 단계를 진행합니다.
+
+1. 핵심 메시지(Answer) 도출 — "이 글을 한 문장으로 요약하면?"
+2. SCQA 진단 — 독자 맥락(S), 갈등·변화(C), 자연스러운 질문(Q), 답변(A) 흐름 점검
+3. 구조 점검 — 핵심 주장을 뒷받침하는 논거의 계층·MECE 여부 확인
+4. 문단·문장 수준 편집 — 도입문, 각 문단 첫 문장, 마무리 문장 중심
+5. 반복·마무리 — 구조↔문장 오가며 완성도 확인
+
+**트리거 조건**
+
+다음 상황에서 사용합니다.
+
+- "Minto" 또는 "피라미드 원칙" 언급 시
+- 글의 논리 구조나 설득력 개선 요청 시
+- 보고서, 제안서, 에세이 등의 초안 피드백 요청 시
+
+### 설치
+
+```bash
+cp -r skills/minto-writing ~/.claude/skills/minto-writing
+```
+
+### CLAUDE.md 설정
+
+루트 `CLAUDE.md`의 Writing 섹션에 아래 내용을 추가합니다.
+
+```markdown
+### Writing
+Always use the minto-writing skill when I ask for help
+with writing structure, editing, or Pyramid Principle coaching.
 ```
 
 ---

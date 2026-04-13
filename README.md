@@ -10,8 +10,11 @@ Shared Claude Code skills, CLAUDE.md configurations, and workspace artifacts.
 dotclaude/
 ├── skills/
 │   ├── README.md        # 스킬 목록 및 설치 가이드
-│   └── dep-security/
-│       └── SKILL.md
+│   ├── dep-security/
+│   │   └── SKILL.md
+│   └── minto-writing/
+│       ├── SKILL.md
+│       └── references/
 └── README.md
 ```
 
