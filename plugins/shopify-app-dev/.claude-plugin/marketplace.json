@@ -1,0 +1,13 @@
+{
+  "name": "shopify-app-dev",
+  "owner": {
+    "name": "ytpark"
+  },
+  "plugins": [
+    {
+      "name": "shopify-app-dev",
+      "source": ".",
+      "description": "Shopify app development assistant: token-efficient retrieval of shopify.dev docs via a pre-chunked llms.txt index, plus /shopify-review and /shopify-init commands."
+    }
+  ]
+}

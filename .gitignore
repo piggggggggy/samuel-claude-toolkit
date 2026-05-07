@@ -1,0 +1,22 @@
+### OS junk
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.tmp/
+
+### Logs
+*.log
+logs/
+
+### Local env/secrets (if any get added later)
+.env
+.env.*
