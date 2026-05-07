@@ -1,0 +1,29 @@
+# Shopify Developer Platform
+
+Intro paragraph about the platform.
+
+## Apps
+
+Apps overview text.
+
+### Configuration and shopify.app.toml
+
+[Configuration docs](https://shopify.dev/docs/apps/build/cli-for-apps/app-configuration)
+
+The `shopify.app.toml` file describes app capabilities. Use scopes and webhooks.
+
+### Admin API
+
+[Admin API docs](https://shopify.dev/docs/api/admin)
+
+The Admin API lets apps read and write store data via GraphQL.
+
+#### Authentication
+
+[Auth docs](https://shopify.dev/docs/apps/build/authentication-authorization)
+
+Use OAuth and session tokens for authentication.
+
+## Themes
+
+Themes overview text.

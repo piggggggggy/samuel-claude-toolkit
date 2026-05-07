@@ -1,0 +1,6 @@
+{
+  "name": "shopify-app-dev",
+  "version": "0.1.0",
+  "description": "Shopify app development assistant: retrieves shopify.dev docs via a pre-chunked llms.txt index and provides /shopify-review and /shopify-init commands.",
+  "author": "ytpark@nwcommerce.co.kr"
+}

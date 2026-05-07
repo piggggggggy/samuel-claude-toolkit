@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "apps__configuration-and-shopify-app-toml",
+    "path": ["Shopify Developer Platform","Apps","Configuration and shopify.app.toml"],
+    "url": "https://shopify.dev/docs/apps/build/cli-for-apps/app-configuration",
+    "keywords": ["toml","scopes","webhooks","configuration","capabilities","client","handle","redirect"],
+    "parent": "Apps",
+    "size": 800
+  },
+  {
+    "slug": "apps__admin-api",
+    "path": ["Shopify Developer Platform","Apps","Admin API"],
+    "url": "https://shopify.dev/docs/api/admin",
+    "keywords": ["admin","graphql","query","mutation","store","read","write","data"],
+    "parent": "Apps",
+    "size": 1200
+  },
+  {
+    "slug": "apps__admin-api__authentication",
+    "path": ["Shopify Developer Platform","Apps","Admin API","Authentication"],
+    "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "keywords": ["oauth","session","tokens","authentication","bearer","jwt"],
+    "parent": "Admin API",
+    "size": 600
+  },
+  {
+    "slug": "themes",
+    "path": ["Shopify Developer Platform","Themes"],
+    "url": "https://shopify.dev/docs/themes",
+    "keywords": ["liquid","sections","blocks","online-store","schema"],
+    "parent": "Shopify Developer Platform",
+    "size": 500
+  }
+]
